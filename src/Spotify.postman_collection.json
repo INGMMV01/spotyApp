@@ -1,0 +1,65 @@
+{
+	"id": "981e9731-1861-cad3-43ae-333065fd8146",
+	"name": "Spotify",
+	"description": "",
+	"order": [
+		"6f732ff7-4c61-43ed-4433-429e2dcecbce"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1520180207905,
+	"owner": "995765",
+	"public": false,
+	"requests": [
+		{
+			"id": "6f732ff7-4c61-43ed-4433-429e2dcecbce",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://accounts.spotify.com/api/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "client_credentials",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_id",
+					"value": "6b8c789a99954494a54060a970d17458",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "client_secret",
+					"value": "e779e0e2aeb747aeaac578cbe5571f9e",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1520258048210,
+			"name": "https://accounts.spotify.com/api/token",
+			"description": "Generar token api de spotify",
+			"collectionId": "981e9731-1861-cad3-43ae-333065fd8146",
+			"responses": []
+		}
+	]
+}
