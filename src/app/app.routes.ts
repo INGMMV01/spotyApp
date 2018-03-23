@@ -11,6 +11,7 @@ const app_routes: Routes = [
     { path: 'search', component: SearchComponent },
     { path: 'artist/:id', component: ArtistComponent },
     { path: '', pathMatch: 'full', redirectTo: 'home'},
+    { path: '**', pathMatch: 'full', redirectTo: 'home'},
 
     //{ path: 'path/:routeParam', component: MyComponent },
     //{ path: 'staticPath', component: ... },
